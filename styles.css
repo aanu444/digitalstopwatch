@@ -1,0 +1,106 @@
+* {
+  font-size: 1rem;
+  font-family: Arial;
+}
+
+* :before, * :after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #3c1230;
+}
+
+div {
+  border: 0px solid black;
+}
+
+.circle {
+  position: absolute;
+  background: rgba(244, 240, 243, 0.3);
+  z-index: -1;
+  border: 1px solid rgba(244, 240, 243, 0.3);
+  padding: 300px;
+  border-radius: 50%;
+  margin-left: 320px;
+  margin-top: -350px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  min-height: 100px;
+}
+
+.container .image {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.container .image img {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container .stopwatch {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.container .stopwatch h1 {
+  font-size: xx-large;
+  color: white;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.container .stopwatch p {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.container .stopwatch p span {
+  display: inline;
+  font-size: 2rem;
+}
+
+.container .stopwatch span {
+  display: block;
+  text-align: center;
+}
+
+.container .stopwatch span button {
+  margin: 10px;
+  padding: 10px;
+  background: #3c1230;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+}
+
+.container .stopwatch span button:hover {
+  background: white;
+  border: 2px solid #3c1230;
+  color: #3c1230;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #e91042;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=styles.css.map */
